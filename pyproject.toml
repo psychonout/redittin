@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "redditin"
+version = "0.1.0"
+description = ""
+authors = ["dogo <donatas@gostautas.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+praw = "^7.7.1"
+requests = "^2.31.0"
+pydantic-settings = "^2.1.0"
+ruff = "^0.1.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
